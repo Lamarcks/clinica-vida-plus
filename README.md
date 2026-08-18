@@ -35,7 +35,7 @@ Após concluir a implementação acadêmica, decidi **evoluir o projeto por inic
 
 Acesse a versão web do projeto:
 
-[🚀 Abrir Clínica Vida+](https://lamarcks.github.io/clinica-vida-plus/)
+*[Abrir Clínica Vida+](https://lamarcks.github.io/clinica-vida-plus/)*
 
 ---
 
