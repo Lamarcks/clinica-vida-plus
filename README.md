@@ -31,6 +31,14 @@ Após concluir a implementação acadêmica, decidi **evoluir o projeto por inic
 
 ---
 
+## 🌐 Demonstração Online
+
+Acesse a versão web do projeto:
+
+[🚀 Abrir Clínica Vida+](https://lamarcks.github.io/clinica-vida-plus/)
+
+---
+
 # 🎯 Objetivo
 
 O objetivo do projeto foi desenvolver uma aplicação simples para gerenciamento de pacientes e utilizar o processo como oportunidade para praticar:
