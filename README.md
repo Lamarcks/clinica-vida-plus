@@ -16,6 +16,23 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
 </div>
+<br>
+
+### 🌐 [TESTAR A APLICAÇÃO](https://lamarcks.github.io/clinica-vida-plus/)
+
+<br>
+
+## 🖥️ Aplicação
+
+<div align="center">
+
+[![Clínica Vida+](screenshots/tela-principal.png)](https://lamarcks.github.io/clinica-vida-plus/)
+
+</div>
+
+> 💡 Clique na imagem acima para acessar e testar a aplicação diretamente pelo navegador.
+
+<br>
 
 ---
 
@@ -28,14 +45,6 @@ A proposta inicial foi desenvolver uma solução para gerenciamento de informaç
 Após concluir a implementação acadêmica, decidi **evoluir o projeto por iniciativa própria**, criando uma versão web mais visual, responsiva e interativa utilizando HTML, CSS e JavaScript.
 
 > Este repositório apresenta principalmente o processo de desenvolvimento, as tecnologias utilizadas e a evolução da solução, preservando o conteúdo completo da atividade acadêmica.
-
----
-
-## 🌐 TESTE A APLICAÇÃO
-
-Acesse a versão web do projeto:
-
-*[Abrir Clínica Vida+](https://lamarcks.github.io/clinica-vida-plus/)*
 
 ---
 
