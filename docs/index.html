@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clínica Vida+ | Gestão de Pacientes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <div class="logo">
+                <div class="logo-icon">+</div>
+
+                <div>
+                    <h1>Clínica Vida+</h1>
+                    <span>Sistema de Gestão de Pacientes</span>
+                </div>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Sistema Online
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <!-- APRESENTAÇÃO -->
+
+        <section class="hero">
+
+            <div>
+                <span class="tag">
+                    Projeto Integrado • ADS
+                </span>
+
+                <h2>
+                    Gestão simples e eficiente
+                    para pacientes.
+                </h2>
+
+                <p>
+                    Sistema desenvolvido para cadastro,
+                    consulta e análise de informações
+                    dos pacientes da Clínica Vida+.
+                </p>
+            </div>
+
+            <div class="hero-card">
+                <span>Tecnologias utilizadas:</span>
+
+                <div class="technologies">
+                    <strong>Python</strong>
+                    <strong>HTML</strong>
+                    <strong>CSS</strong>
+                    <strong>JavaScript</strong>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ESTATÍSTICAS -->
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+                <span>Total de Pacientes</span>
+                <strong id="totalPacientes">0</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Idade Média</span>
+                <strong id="idadeMedia">0</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Mais Novo</span>
+                <strong id="maisNovo">-</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Mais Velho</span>
+                <strong id="maisVelho">-</strong>
+            </div>
+
+        </section>
+
+
+        <!-- FORMULÁRIO -->
+
+        <section class="content-grid">
+
+            <div class="panel">
+
+                <div class="panel-title">
+                    <div>
+                        <span class="section-label">
+                            CADASTRO
+                        </span>
+
+                        <h3>Novo paciente</h3>
+                    </div>
+                </div>
+
+
+                <form id="pacienteForm">
+
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Ex: João Silva"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="idade">Idade</label>
+
+                            <input
+                                type="number"
+                                id="idade"
+                                min="0"
+                                max="130"
+                                placeholder="Ex: 35"
+                                required
+                            >
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+
+                            <input
+                                type="text"
+                                id="telefone"
+                                placeholder="(99) 99999-9999"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <button type="submit" class="btn-primary">
+                        + Cadastrar paciente
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- BUSCA -->
+
+            <div class="panel">
+
+                <div class="panel-title">
+                    <div>
+                        <span class="section-label">
+                            PESQUISA
+                        </span>
+
+                        <h3>Buscar paciente</h3>
+                    </div>
+                </div>
+
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        id="campoBusca"
+                        placeholder="Digite o nome do paciente..."
+                    >
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        i
+                    </div>
+
+                    <div>
+                        <strong>Busca instantânea</strong>
+
+                        <p>
+                            Digite parte do nome para filtrar
+                            os pacientes cadastrados.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TABELA -->
+
+        <section class="panel patients-panel">
+
+            <div class="panel-title table-header">
+
+                <div>
+                    <span class="section-label">
+                        PACIENTES
+                    </span>
+
+                    <h3>Pacientes cadastrados</h3>
+                </div>
+
+                <button
+                    id="limparDados"
+                    class="btn-secondary"
+                >
+                    Limpar dados
+                </button>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Paciente</th>
+                            <th>Idade</th>
+                            <th>Telefone</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="listaPacientes">
+
+                    </tbody>
+
+                </table>
+
+
+                <div id="estadoVazio" class="empty-state">
+
+                    <div class="empty-icon">
+                        +
+                    </div>
+
+                    <h4>Nenhum paciente cadastrado</h4>
+
+                    <p>
+                        Utilize o formulário acima para
+                        adicionar o primeiro paciente.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <strong>Clínica Vida+</strong>
+
+                <p>
+                    Projeto acadêmico de Análise e
+                    Desenvolvimento de Sistemas.
+                </p>
+            </div>
+
+            <span>
+                Desenvolvido por Ihago Lamarcks
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <div id="toast" class="toast"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
