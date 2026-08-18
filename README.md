@@ -24,11 +24,11 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 
 [![Clínica Vida+](screenshots/tela-principal.png)](https://lamarcks.github.io/clinica-vida-plus/)
 
-</div>
+<br>
 
 > 💡 Clique na imagem acima para acessar e testar a aplicação diretamente pelo navegador.
 
-<br>
+</div>
 
 ---
 
