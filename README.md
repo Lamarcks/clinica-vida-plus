@@ -16,13 +16,12 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
 </div>
+
 <br>
 
 ### 🌐 [TESTAR A APLICAÇÃO](https://lamarcks.github.io/clinica-vida-plus/)
 
 <br>
-
-## 🖥️ Aplicação
 
 <div align="center">
 
@@ -242,23 +241,6 @@ LocalStorage
 O objetivo foi transformar uma aplicação originalmente executada pelo terminal em uma interface visual mais agradável para utilização e apresentação.
 
 > A versão web representa uma evolução adicional do projeto. A implementação em Python foi mantida como parte principal do desenvolvimento original.
-
----
-
-# 🖥️ Interface
-
-A interface foi desenvolvida buscando uma aparência limpa e semelhante a um pequeno sistema administrativo.
-
-![Tela principal da Clínica Vida+](screenshots/tela-principal.png)
-
-A página apresenta:
-
-* informações gerais;
-* formulário de cadastro;
-* pesquisa de pacientes;
-* estatísticas;
-* listagem dos registros;
-* ações de gerenciamento.
 
 ---
 
