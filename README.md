@@ -31,7 +31,7 @@ Após concluir a implementação acadêmica, decidi **evoluir o projeto por inic
 
 ---
 
-## 🌐 TESTAR A APLICAÇÃO
+## 🌐 TESTE A APLICAÇÃO
 
 Acesse a versão web do projeto:
 
