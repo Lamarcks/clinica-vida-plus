@@ -14,25 +14,25 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 
+---
+
+## 🌐 Teste a Aplicação
+
+A versão web está disponível diretamente pelo navegador:
+
+### [🚀 ACESSAR CLÍNICA VIDA+](https://lamarcks.github.io/clinica-vida-plus/)
+
 <br>
-
-### 🌐 [TESTE A APLICAÇÃO](https://lamarcks.github.io/clinica-vida-plus/)
-
-<br>
-
-<div align="center">
 
 [![Clínica Vida+](screenshots/tela-principal.png)](https://lamarcks.github.io/clinica-vida-plus/)
 
-<br>
-
-> 💡 Clique na imagem acima para acessar e testar a aplicação diretamente pelo navegador.
-
-</div>
+> 💡 Clique na imagem para acessar e testar a aplicação.
 
 ---
 
 ## 📌 Sobre o projeto
+
+</div>
 
 O **Clínica Vida+** surgiu a partir de um Projeto Integrado da graduação em **Análise e Desenvolvimento de Sistemas**.
 
