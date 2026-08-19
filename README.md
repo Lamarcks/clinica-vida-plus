@@ -16,7 +16,7 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 
 ---
 
-## 🌐 Teste a Aplicação (https://lamarcks.github.io/clinica-vida-plus/)
+## 🌐 Teste a Aplicação(https://lamarcks.github.io/clinica-vida-plus/)
 
 <br>
 
