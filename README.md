@@ -18,8 +18,6 @@ Projeto desenvolvido em **Python** e posteriormente evoluído para uma interface
 
 ## 🌐 Teste a Aplicação
 
-A versão web está disponível diretamente pelo navegador:
-
 ### [🚀 ACESSAR CLÍNICA VIDA+](https://lamarcks.github.io/clinica-vida-plus/)
 
 <br>
