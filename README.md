@@ -38,8 +38,6 @@ A proposta inicial foi desenvolver uma solução para gerenciamento de informaç
 
 Após concluir a implementação acadêmica, decidi **evoluir o projeto por iniciativa própria**, criando uma versão web mais visual, responsiva e interativa utilizando HTML, CSS e JavaScript.
 
-> Este repositório apresenta principalmente o processo de desenvolvimento, as tecnologias utilizadas e a evolução da solução, preservando o conteúdo completo da atividade acadêmica.
-
 ---
 
 # 🎯 Objetivo
